@@ -1,3 +1,48 @@
+<div align="center">
+<img src="https://s21.ax1x.com/2025/09/13/pVWBZJH.png"  width="250" height="250" />
+
+
+# FreeMoe
+[![LSPosed](https://img.shields.io/badge/LSPosed-Module-blue.svg)](https://github.com/Xposed-Modules-Repo/me.feimeng.vip/releases)
+[![Github](https://img.shields.io/badge/Github-FreeMoe-black.svg)](https://github.com/HunMoe/FreeMoe)
+
+
+✨**解锁软件Vip模块** ✨
+
+</div>
+
+
+## ✨如何使用
+
+点击[这里](https://github.com/Xposed-Modules-Repo/me.feimeng.vip/releases)，下载**最新版本**
+
+> 注：部分软件可能需要登录才能获取会员
+
+---
+
+## ✨免责声明
+
+- **禁止发送、分享至国内平台！否则一切后果自行承担！**
+- 本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！
+- 本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。
+
+
+---
+
+## ✨捐赠
+
+维护模块不容易，可以的话给我打赏
+
+[https://afdian.com/a/moestar](https://afdian.com/a/moestar)
+
+---
+
+## ✨模块交流群
+
+[https://t.me/freemoe520](https://t.me/freemoe520)
+
+---
+
 ## 🎇适配的APP
 
 **注：从左往右，分别是App名字，解锁描述**
@@ -45,6 +90,25 @@
 - mbit人格测试 解锁会员
 - ai记牌器 解锁会员
 - 次元壁纸 解锁会员
-  
 
-**还有更多，这里不描述了，详细的打开模块App 点击模块设置**
+**.......**
+
+**更多App打开 模块设置**
+
+---
+
+## 🍋适配的版本
+
+这里我提供了适配的app的版本安装包
+
+```bash
+https://www.123684.com/s/dNbHjv-P4nsA?pwd=pwOZ
+```
+
+---
+
+## ⭐Star
+
+[![Stargazers over time](https://starchart.cc/HunMoe/FreeMoe.svg)](https://starchart.cc/HunMoe/FreeMoe/)
+
+## 
