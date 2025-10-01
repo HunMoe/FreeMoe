@@ -1,0 +1,72 @@
+name: 适配请求
+description: 点这里提交APP适配
+title: "【适配请求】 应用名称"
+labels: [ "新需求" ]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ⚠️ 重要阅读
+      options:
+        - label: 由于个人时间精力有限 不会采纳所有的适配请求 具体更新请以最新版为准(加入内测优先适配)
+          required: true
+        - label: 提交应用前请动脑 你的需求是否合理 不要提出无理要求
+          required: true
+        - label: 请勿重复刷屏issue，开发者看到都会处理
+          required: true
+        - label : 我确保issue的标题，以及相关内容已填写完整
+          required: true
+  - type: input
+    id: app-name
+    attributes:
+      label: 应用名称
+      description: 请在此填写您需要适配的应用名称
+      placeholder: 例如：一叶日历
+    validations:
+      required: true
+  - type: input
+    id: app-pkg
+    attributes:
+      label: 应用包名
+      description: 请在此填写您需要适配的应用包名
+      placeholder: 例如：me.mapleaf.calendar
+    validations:
+      required: true
+  - type: input
+    id: reinforcement
+    attributes:
+      label: 加固状态
+      description: 请填写应用的加固状态(可以在MT管理器复制)
+      placeholder: "例如：未加固/360加固/梆梆加固/网易易盾/等"
+    validations:
+      required: true
+  - type: input
+    id: app-use
+    attributes:
+      label: 应用用途
+      description: 请在此填写您需要适配的应用用途
+      placeholder: 例如：查看日历
+    validations:
+      required: true
+  - type: textarea
+    id: problem-description
+    attributes:
+        label: 应用需求
+        description: 请在此描述你的需求。
+        placeholder: 需要去除开屏广告以及解锁本地会员
+        render: text
+    validations:
+        required: true
+  - type: textarea
+    id: app-download
+    attributes:
+      label: 应用下载地址/安装包
+      description: 请在此添加应用下载地址/安装包文件
+    validations:
+      required: true
+  - type: textarea
+    id: dex-unpack
+    attributes:
+      label: 脱壳任务提交 (如果已加固)
+      description: 请前往 https://56.al/upload.php 上传对应应用的APK文件(方便我们更快为你适配)
+      placeholder: "例如：https://56.al/file.php?hash=对应的hash值(上传完可以在浏览器上方复制)"
