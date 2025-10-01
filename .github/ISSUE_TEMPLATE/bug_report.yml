@@ -1,0 +1,56 @@
+name: 反馈问题
+description: 点这里反馈问题
+title: "【BUG】 应用名称"
+labels: [ "BUG" ]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ⚠️ 重要阅读
+      options:
+        - label: 由于个人时间精力有限 问题可能无法得到解决 具体更新请以最新版为准(加入内测优先解决)
+          required: true
+        - label: 反馈问题前请详细提供信息以及日志，帮助开发者进一步解决
+          required: true
+        - label: 请勿重复刷屏issue，开发者看到都会处理
+          required: true
+        - label : 我确保issue的标题，以及相关内容已填写完整
+          required: true
+  - type: input
+    id: lsposed-version
+    attributes:
+      label: 使用的框架
+      description: 请在此填写你使用的lsposed版本 提供具体版本号
+      placeholder: 例如：lsposed it 7426
+    validations:
+      required: true
+  - type: input
+    id: app-name
+    attributes:
+      label: 应用名称
+      description: 请在此填写您遇到问题的应用名称
+      placeholder: 例如：一叶日历
+    validations:
+      required: true
+  - type: input
+    id: app-pkg
+    attributes:
+      label: 应用包名
+      description: 请在此填写您遇到问题的应用包名
+      placeholder: 例如：me.mapleaf.calendar
+    validations:
+      required: true
+  - type: input
+    id: description-app
+    attributes:
+      label: 具体现象
+      description: 请在此填写您遇到的问题现象
+      placeholder: 例如：APP无法打开，会员解锁失效
+    validations:
+      required: true
+  - type: textarea
+    id: commit-evidences
+    attributes:
+      label: 提交截图录屏证据，截图为必选，录屏可不用，以及上传lsposed日志
+      description: 提交截图录屏证据，截图为必选，录屏可不用，以及上传lsposed日志
+      placeholder: 提交截图录屏证据，截图为必选，录屏可不用，以及上传lsposed日志
