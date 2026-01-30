@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://s21.ax1x.com/2025/09/13/pVWBZJH.png"  width="250" height="250" />
+<img src="https://s41.ax1x.com/2026/01/30/pZfN20s.png"  width="250" height="250" />
 
 
 # FreeMoe
@@ -102,7 +102,7 @@
 这里我提供了适配的app的版本安装包
 
 ```bash
-https://www.123684.com/s/dNbHjv-P4nsA?pwd=pwOZ
+https://www.123865.com/s/dNbHjv-ajRsA?pwd=2AFE
 ```
 
 ---
